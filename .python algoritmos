@@ -1,0 +1,72 @@
+# Otro ejercicio
+
+sexo=input("dame tu sexo f:femenino m:masculino   ")
+if sexo != "f":
+    print("Esta es una encuesta para mujeres y no aplicas")
+else:
+    nombre = input("dame tu Nombre     ")
+    edad = int(input("dame tu edad  "))
+    estatura = float(input("dame tu estatura   "))
+    peso = int(input("dame tu peso  "))
+    cabello = input("dame  el color de tu cabello 1. rubio 2. negro 3. azul 4. otro  ")
+    ojos = input("dame el color de tus ojos A. Azules N. Negros V. verdes  ")
+
+if sexo != "m":
+    if sexo == "f" and edad > 18 and estatura > 1.70 and peso <= 60 and (cabello == "1" or ojos == "V"):
+        print("Felicidades. Te enviaremos un correo para finiquitar las fechas de casting ")
+    else:
+        print("Lo sentimos, tienes muchas cosas maravillosa, pero aqui estamos buscando poderosas ")
+
+# programa para determinar el estado de vida de una edad
+
+# si la edad es <= 12 es un nino
+# si es entre 13 y 20 es adolecente
+# si es entre 20 y 50 adultos
+# si es entre 50 y 70 adultos mayores
+
+esun = ""
+if esun == "":
+    edad = int(input("dame tu edad  "))
+    if edad <= 12:
+        esun = "Ni�o"
+
+    if edad > 12 and edad <=20:
+        esun = "Adolecente"
+
+    if edad > 20 and edad <=50:
+        esun = "Adulto"
+
+    if edad > 50 and edad <=70:
+        esun = "Adulto mayor"
+    if edad > 70:
+        esun = "Va para el Cajon "
+if esun != "":
+    print("Usted es un ", esun)
+
+eswh = ""
+
+while eswh == "":
+    esun = ""
+    for i in range(5):
+        if esun == "":
+            edad = int(input("dame tu edad  "))
+            if edad <= 12:
+                esun = "Ni�o"
+
+            if edad > 12 and edad <=20:
+                esun = "Adolecente"
+
+            if edad > 20 and edad <=50:
+                esun = "Adulto"
+
+            if edad > 50 and edad <=70:
+                esun = "Adulto mayor"
+            if edad > 70:
+                esun = "Va para el Cajon "
+
+        print("Usted es un ", esun)
+        esun = ""
+    input("se acaba el ciclo ")
+
+    eswh = "dddd"
+print("FIN")

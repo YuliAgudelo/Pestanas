@@ -1,0 +1,38 @@
+body {
+    background-color: beige;
+    background-image: url("imagenes/fonfop.jpeg");
+}
+h1 {
+    color: blueviolet;
+    text-align: center;
+}
+h2 {
+    color: blueviolet;
+    text-align: center;
+
+}
+header {
+    background-color: aquamarine;
+
+    height: 30%;
+}
+
+body {color: rgb(145, 66, 115);
+    text-align: center;height: 1px; }
+
+    footer{
+        background-color: rgb(165, 42, 120);
+        
+    }
+    aside{
+        background-color: rgb(255, 0, 115);
+        float:right;
+        border: 20px solid;
+        height: 30%;
+        width: 200px;
+    }
+
+    p+div{
+        background-color: aquamarine;
+    }
+    

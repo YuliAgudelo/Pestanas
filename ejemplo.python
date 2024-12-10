@@ -1,0 +1,23 @@
+cw = ""
+while cw == "":
+    for i in range(5):
+        #        if esun == "":
+        edad = int(input("dame tu edad  "))
+        if edad <= 12:
+            esun = "Niño"
+
+        if edad > 12 and edad <=20:
+            esun = "Adolecente"
+
+        if edad > 20 and edad <=50:
+            esun = "Adulto"
+
+        if edad > 50 and edad <=70:
+            esun = "Adulto mayor"
+        if edad > 70:
+            esun = "Va para el Cajon "
+        else:
+            print("Usted es un ", esun)32
+    input("se acabo un ciclo ")
+    cw = "wwwww"
+print("FIN")
